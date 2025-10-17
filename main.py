@@ -1,2 +1,6 @@
+from flask import Flask
 
-print('hi!')
+app = Flask(__name__)
+
+if __name__ == "__main__":
+    app.run(debug=True)
