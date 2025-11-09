@@ -7,7 +7,7 @@ dzindza_menu = ['download', 'feedback', 'my websites']
 @app.route('/')
 def index():
     return "index"
-
+print("hi")
 @app.route('/about')
 def about():
     return render_template("shablon.html", title='dzindza module', menu=dzindza_menu)
